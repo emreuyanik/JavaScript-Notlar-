@@ -299,12 +299,31 @@
 // }
 //  console.log(toplam);
 
-
-
-const x = 5; 
-const y = 10; 
+const x = 5;
+const y = 10;
 if ((x + y) % x && y < 15) {
   console.log("Both conditions are true");
 } else {
   console.log("At least one condition is false");
 }
+
+
+//*******************Cinsiyete Göre Selamlama******//
+
+// function hosgeldinizMesaji(isim, cinsiyet) {
+//   if (cinsiyet === "Bay") {
+//     return "Hoşgeldiniz " + isim + " Bey";
+//   } else if (cinsiyet === "Hanım") {
+//     return "Hoşgeldiniz " + isim + " Hanım";
+//   } else {
+//     return "Geçerli bir cinsiyet girişi yapmadınız.";
+//   }
+// }
+
+// let isim = prompt("Adınızı girin: ");
+// let cinsiyet = prompt("Cinsiyetinizi girin (Bay veya Hanım): ");
+
+// let mesaj = hosgeldinizMesaji(isim, cinsiyet);
+// console.log(mesaj);
+
+
